@@ -1,14 +1,12 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "jekyll", ">=3.8.6"
-
-# Official Plugins
 group :jekyll_plugins do
-  gem "jekyll-paginate"
-  gem "jekyll-redirect-from"
-  gem "jekyll-seo-tag", "~> 2.6.1"
-end
-
-group :test do
-  gem "html-proofer"
+    gem 'github-pages'
+    gem 'jekyll-admin'
+    gem 'jekyll-seo-tag'
+    gem 'jekyll-gist'
+    gem 'jekyll-feed'
+    gem 'jemoji'
+    gem "jekyll-paginate-v2", "~> 2.0"
+    gem "html-proofer"
 end

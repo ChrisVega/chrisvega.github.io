@@ -1,63 +1,49 @@
 ---
 layout: compress
-# Default layout
-# v2.0
-# https://github.com/cotes2020/jekyll-theme-chirpy
-# © 2017-2019 Cotes Chung
-# MIT Licensed
 ---
-
 <!DOCTYPE html>
+<html lang="en">
+<head>
 
-{% if site.lang %}
-  {% assign lang = site.lang | split: "_" | first %}
-{% else %}
-  {% assign lang = 'en' %}
-{% endif %}
-
-{% capture prefer_mode %}
-  {% if site.theme_mode != "dual" %}
-    mode="{{ site.theme_mode }}"
-  {% endif %}
-{% endcapture %}
-
-<html lang="{{ lang }}" {{ prefer_mode }} >
-
-  {% include head.html %}
-
-  <body data-spy="scroll" data-target="#toc">
-
-    <div id="sidebar" class="d-flex flex-column">
-      {% include sidebar.html %}
-    </div>
-
-    {% include topbar.html %}
-
-    <div id="main-wrapper">
-      <div id="main">
-
-        {% include refactor-content.html content=content %}
-
-        {% include footer.html %}
-
-      </div>
-
-      {% include search-results.html %}
-
-    </div> <!-- #main-wrapper -->
-
-    <div id="mask"></div>
-
-    <a id="back-to-top" href="#" aria-label="back-to-top" class="btn btn-lg btn-box-shadow" role="button">
-      <i class="fas fa-angle-up"></i>
-    </a>
-
-    {% include search-loader.html %}
-
-    {% if site.google_analytics.id and jekyll.environment == 'production' %}
-      {% include google-analytics.html %}
+    {% if site.analytics-google %}
+        {% include analytics-google.html %}
     {% endif %}
 
-  </body>
+    <meta charset="utf-8">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name=author content="{{ site.name }}">
 
+    {% seo %}
+
+    {% include favicon.html %}
+
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}{{ "/feed.xml" }}" />
+
+    <style>
+    {% capture scss_sheet %}{% include style.scss %}{% endcapture %}
+    {{ scss_sheet | scssify }}
+    </style>
+
+</head>
+<body>
+
+    <div class="wrapper-{% if site.width == "normal" %}normal{% elsif site.width == "large" %}large{% endif %}">
+        {% if page.tag %}
+            <div class="post">
+        {% else %}
+            {% if showHeader != true %}
+                <div class="page {{ page.title | downcase }}">
+            {% else %}
+                <div class="{{ page.title | downcase }}">
+            {% endif %}
+        {% endif %}
+
+            {{ content }}
+        </div>
+    </div>
+
+    {% include icons.html %}
+
+</body>
 </html>

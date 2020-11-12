@@ -1,200 +1,143 @@
-# The Site Settings
-# v2.0
-# https://github.com/cotes2020/jekyll-theme-chirpy
-# © 2017-2019 Cotes Chung
-# MIT licensed
+# main text of home
+name: John Doe
+bio: A Man who travels the world eating noodles
 
+# twitter summary info
+description: A blog about technology and stuff related
 
-# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
-#--------------------------
+# if it's an external image, update below for true
+# better with square images
+external-image: false
+picture: assets/images/profile.jpg
 
-title: Chirpy                          # the main title
+# If you want to include your resume, set to true
+# and specify source (external or local).
+resume: true
+resume-external: true
+resume-url: https://google.com/?q=my+resume
 
-tagline: A text-focused Jekyll theme.  # it will display as the sub-title
+url: https://sergiokopplin.github.io/indigo
+# your url: https://USERNAME.github.io
 
-description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+permalink: /:title/
 
-# Replace with the website url, e.g. 'https://username.github.io'
-url: 'protocol://domain'
+# To enable google analytics, supply your token below
+# analytics-google: 'UA-MYANALYTICS'
 
-author: your_full_name                  # change to your full name
+# To enable piwik tracking, supply your url & site ID below
+# analytics-piwik-url: 'piwik.my-host.com'
+# analytics-piwik-id: 1
 
-avatar: /assets/img/sample/avatar.jpg   # support internet resources
-
-github:
-  username: github_username             # change to your github username
-
-twitter:
-  username: twitter_username            # change to your twitter username
-
-social:
-  name: your_full_name                  # it will shows as the copyright owner in Footer
-  email: example@doamin.com             # change to your email address
-  links:
-    # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
-
-google_site_verification: google_meta_tag_verification # change to your verification string
-
-#--------------------------
-
-
-# Only if your site type is GitHub Project sites and doesn't have a custom domain,
-# change below value to '/projectname'.
-baseurl: ''
-
-# Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Shanghai
-
-google_analytics:
-  id: ''          # Fill with your Google Analytics ID
-  pv:
-    # The Google Analytics pageviews switch.
-    # DO NOT enable it unless you know how to deploy the Google Analytics superProxy.
-    enabled: false
-    # the next options only valid when `google_analytics.pv` is enabled.
-    proxy_url: ''
-    proxy_endpoint: ''
-    cache: false  # pv data local cache, good for the users from GFW area.
-
+# if you don't want comments in your posts, leave categories empty
 disqus:
-  comments: false  # boolean type, the global switch for posts comments.
-  shortname: ''    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+  shortname: mydisqus # enter this from your disqus account
+  categories: [blog, project] # only show disqus for posts that have these categories
 
+# if you don't have any of social below, comment the line
+facebook: myfacebook
+twitter: mytwitter
+# instagram: myinstagram
+# pinterest: mypinterest
+# linkedin: mylinkedin
+# youtube: myyoutube
+# spotify: myspotify
+github: mygithub
+# gitlab: mygitlab
+# lastfm: mylastfm
+# stackoverflow: 7044681/mystackoverflow
+# quora: userquora
+# reddit: username
+medium: medium
+# vimeo: myvimeo
+# lanyrd: mylanyrd
+email: myemail@gmail.com
 
-# Prefer color scheme setting, available values:
-#
-#     dual   - Follow the system prefer color by default, and a toggle will display
-#              in the left bottom of Sidebar, which used for switch the theme between dark and light.
-#
-#     light  - Use the light color scheme
-#
-#     dark   - Use the dark color scheme
-#
-theme_mode: dual
+authors:
+  johndoe:
+    name: John Doe
+    bio: A Man who travels the world eating noodles
+    external-image: false
+    picture: assets/images/profile.jpg
+    twitter: johndoe
+  jamesfoster:
+    name: James Foster
+    bio: A Man who develops software with coffee
+    external-image: false
+    picture: assets/images/james.jpg
+    twitter: jamesfoster
 
-# boolean type, global switch for ToC in posts.
-toc: true
+# do you want a larger site? change the option below
+# options: [normal, large] | default: normal
+# normal = 560px / large = 810px
+width: normal
 
-paginate: 10
+# if you do/don't need pagination, toggle 'enabled' between true/false below
+pagination:
+  enabled: false
+  sort_reverse: true # display recent posts first
+  title: ":title" # Changing this will mess up the header display logic
+  per_page: 5
+  permalink: "/:num/" # pagination link that will be appended
 
-markdown: kramdown
+# if you don't need projects, comment the *projects* configs below
+projects: true
 
-highlighter: rouge
+# if you don't need "about" or "blog", comment them out below
+about: true
+blog: true
 
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
-    css_class: 'highlight'
-    # default_lang: console
-    span:
-      line_numbers: false
-    block:
-      line_numbers: true
-      start_line: 1
+# do you want to show the "read time" of the posts?
+read-time: true
 
-# DO NOT change this unless you're a Pro user on Jekyll and Web development,
-# or you think you're smart enough to change other relevant URLs within this template.
-permalink: /posts/:title/
+# do you want to show the "tags" inside the posts?
+show-tags: true
 
+# related posts inside a post?
+related: true
+
+# Display links for next and previous posts for the specified categories
+post-advance-links: [blog]
+
+# show author block at the end of a post ?
+show-author: true
+
+# do you want some animations?
+animation: true
+
+# add default values to specific pages or layouts
 defaults:
-  -
-    scope:
-      path: ""          # An empty string here means all files in the project
-      type: posts
+  - scope:
+      path: "" # an empty string here means all files in the project
+      layout: "post"
     values:
-      layout: post
-      comments: true    # Enable comments in posts.
-      toc: true         # Display TOC column in posts.
-      location: Post
-      breadcrumb:
-        -
-          label: Posts
-          url: /
-  -
-    scope:
-      path: _drafts
-    values:
-      comments: false
-  -
-    scope:
-      path: tags
-    values:
-      tab_active: Tags
-      location: Tag
-      breadcrumb:
-        -
-          label: Home
-          url: /
-        -
-          label: Tags
-          url: /tabs/tags/
-  -
-    scope:
-      path: categories
-    values:
-      tab_active: Categories
-      location: Category
-      breadcrumb:
-        -
-          label: Home
-          url: /
-        -
-          label: Categories
-          url: /tabs/categories/
-  -
-    scope:
-      path: tabs
-    values:
-      layout: page
-      dynamic_title: true    # Hide title in mobile screens.
-      breadcrumb:
-        -
-          label: Home
-          url: /
+      # setting all post to not hidden by default,
+      # can be overridden in the front matter for a specific post
+      hidden: false
 
+plugins:
+  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-admin
+  - jekyll-paginate-v2
 
-sass:
-  sass_dir: /assets/css
-  style: compressed
+jekyll-mentions:
+  base_url: https://github.com
 
 compress_html:
-  clippings: all
-  comments: all
-  endings: all
-  profile: false
-  blanklines: false
   ignore:
-    envs: []
+    envs:
+      - development
+      - stage
 
 exclude:
-  - vendor        # Avoid Jekyll mistakenly read the vendor directory on Travis-CI's VM .
-  - Gemfile.lock
-  - Gemfile
-  - tools
-  - docs
-  - README.md
-  - LICENSE
-
-sitemap_exclude:  # Sitemap will exclude the following items.
-  fuzzy:
-    - /assets/
-  accurate:
-    - /norobots/
-    - /tabs/
-    - /categories/
-    - /tags/
-    - /posts/
-    - 404.html
-    - feed.xml
-    - sitemap.xml
-    - robots.txt
-    - redirects.json
+  [
+    "travis.sh",
+    "README.md",
+    "Gemfile",
+    "Gemfile.lock",
+    "FAQ.md",
+    "node_modules",
+    "vendor",
+  ]
