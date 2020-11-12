@@ -34,30 +34,30 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-twitter: mytwitter
+twitter: Cvega_Asere
 # instagram: myinstagram
 # pinterest: mypinterest
-# linkedin: mylinkedin
+linkedin: chris-vega-869a49129/
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
+github: ChrisVega
 # gitlab: mygitlab
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: medium
+#medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: myemail@gmail.com
+email: C.vega@ufl.edu
 
 authors:
-  johndoe:
-    name: John Doe
+  ChrisVega:
+    name: Chris Vega
     bio: A Man who travels the world eating noodles
     external-image: false
     picture: assets/images/profile.jpg
-    twitter: johndoe
+    twitter: Cvega_Asere
   jamesfoster:
     name: James Foster
     bio: A Man who develops software with coffee
