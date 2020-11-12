@@ -13,7 +13,7 @@ description: Markdown summary with different options
 
 <div class="side-by-side">
     <div class="toleft">
-        <img class="image" src=[1] alt="Alt Text">
+        <img class="image" src={{[1]}} alt="Alt Text">
     </div>
 
     <div class="toright">
