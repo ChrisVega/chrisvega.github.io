@@ -13,7 +13,7 @@ description: Markdown summary with different options
 
 <div class="side-by-side">
     <div class="toleft">
-        <img class="image" src=bigboleteyellow.jpg alt="Alt Text">
+        <img class="image" src=[1] alt="Alt Text">
     </div>
 
     <div class="toright">
@@ -23,7 +23,7 @@ description: Markdown summary with different options
 
 ![Markdowm Image][1]
 
-[1] = "assets/images/mush/bigboleteyellow.jpg"
+[1] = "https://chrisvega.github.io/assets/images/mush/bigboleteyellow.jpg"
 [2]: assets/images/mush/blowout.jpg
 [3]: assets/images/mush/boletehand.jpg
 [4]: assets/images/mush/boleteyellowdecay.jpg
