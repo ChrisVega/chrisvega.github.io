@@ -13,7 +13,7 @@ description: Markdown summary with different options
 
 <div class="side-by-side">
     <div class="toleft">
-        <img class="image" src="{{ site.url }}/[1]" alt="Alt Text">
+        ![Markdowm Image][1]
     </div>
 
     <div class="toright">
