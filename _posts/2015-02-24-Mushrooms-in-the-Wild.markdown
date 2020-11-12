@@ -21,4 +21,4 @@ description: Markdown summary with different options
     </div>
 </div>
 
-[1]: assets/images/mush/redboy.jpg
+[1]: https://chrisvega.github.io/assets/images/mush/redboy.jpg
