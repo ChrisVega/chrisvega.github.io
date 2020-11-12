@@ -13,15 +13,15 @@ description: Markdown summary with different options
 
 <div class="side-by-side">
     <div class="toleft">
-        <img class="image" src={{[1]}} alt="Alt Text">
+        <img class="image" src=bigboleteyellow.jpg alt="Alt Text">
     </div>
 
     <div class="toright">
         <p>Red mushroom, don't know what it is.</p>
     </div>
-	
-	![Markdowm Image][/image/url]
 </div>
+
+![Markdowm Image][/image/url]
 
 [1] = "assets/images/mush/bigboleteyellow.jpg"
 [2]: assets/images/mush/blowout.jpg
