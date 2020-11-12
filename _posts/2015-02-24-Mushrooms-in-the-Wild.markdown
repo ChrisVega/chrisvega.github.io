@@ -21,7 +21,7 @@ description: Markdown summary with different options
     </div>
 </div>
 
-![Markdowm Image][/image/url]
+![Markdowm Image][1]
 
 [1] = "assets/images/mush/bigboleteyellow.jpg"
 [2]: assets/images/mush/blowout.jpg
