@@ -13,12 +13,12 @@ description: Markdown summary with different options
 
 <div class="side-by-side">
     <div class="toleft">
-        ![Markdowm Image][1]
+        <img class="image" src="https://chrisvega.github.io/assets/images/mush/redboy.jpg" alt="Alt Text">
     </div>
 
     <div class="toright">
-        <p>Red mushroom, don't know what it is, test.</p>
+        <p>Red mushroom, don't know what it is.</p>
     </div>
 </div>
 
-[1]: https://chrisvega.github.io/assets/images/mush/redboy.jpg
+[1]: assets/images/mush/redboy.jpg
