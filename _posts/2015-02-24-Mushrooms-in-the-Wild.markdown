@@ -9,6 +9,8 @@ category: blog
 description: Markdown summary with different options
 ---
 
+![Markdowm Image][666]
+
 ## The Goods
 
 ### Chanterelles
@@ -118,3 +120,5 @@ My favorite mushroom! I have tried to cultivate them many times with different l
 [74]: https://chrisvega.github.io/assets/images/mush/woodshroom3.jpg
 [75]: https://chrisvega.github.io/assets/images/mush/wow.jpg
 [76]: https://chrisvega.github.io/assets/images/mush/yellowbolete.jpg
+
+[666]: https://chrisvega.github.io/assets/images/hunter.jpg
