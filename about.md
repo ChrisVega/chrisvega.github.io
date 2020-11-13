@@ -18,5 +18,5 @@ layout: page
 </ul>
 
 <h2>Projects</h2>
-	<liv>DJIN</li>
-	<liv>MeL PUF</li>
+	<li>DJIN</li>
+	<li>MeL PUF</li>
