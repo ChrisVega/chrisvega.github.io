@@ -14,7 +14,7 @@ description: Markdown summary with different options
 ## The Goods
 
 ### Chanterelles
-A choice edible mushroom very easy to identify with few lookalikes. Besides their bright yellow color they can also be identified by their blunt ridges under that cap and the bright white flesh when cut open. The ridges will fork and are connected by veins. The only toxic look alike is the jack-o'-lantern mushroom. There are many other false chanterelles but aren't dangerous to eat.
+A choice edible mushroom very easy to identify with few lookalikes. Besides their bright yellow color they can also be identified by their blunt ridges under that cap and the bright white flesh when cut open. The ridges will fork and are connected by veins. The only toxic look alike is the jack-o'-lantern mushroom. There are other false chanterelles but aren't dangerous to eat.
 ![Markdowm Image][26]
 <figcaption class="caption">My first mushroom hunt where I found some chanterelles and an unidentifiable bolete.</figcaption>
 ![Markdowm Image][7]
