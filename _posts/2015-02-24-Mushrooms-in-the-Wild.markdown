@@ -43,6 +43,11 @@ My favorite mushroom! I have tried to cultivate them many times with different l
 ![Markdowm Image][4]
 <figcaption class="caption">Giant bolete that was shooting thick yellow spores everywhere. Initially found it on a hike near a camp site. Came back a week later to find it heavily decayed and covered in thick yellow spores.</figcaption>
 
+### Mics and Unidentifiable
+I don't know what these are, but the pictures look cool. If you think you know what they are email me.
+![Markdowm Image][31]
+![Markdowm Image][34]
+![Markdowm Image][33]
 
 [1]: https://chrisvega.github.io/assets/images/mush/bigboleteyellow.jpg
 [2]: https://chrisvega.github.io/assets/images/mush/blowout.jpg
